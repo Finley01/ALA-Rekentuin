@@ -1,0 +1,202 @@
+.Rekentuin{
+  position: relative;
+  top: -50px;
+  width: 100%;
+  background-color: rgba(44, 118, 230, 0.356);
+  text-align: center;
+  border: 2px solid rgba(173, 216, 230, 0.397);
+  font-family: fantasy;
+  color: rgba(0, 225, 255, 0.795);
+  font-size: 40px;
+  height: 200px;
+}
+nav{
+  position: relative;
+  top:-50px;
+  border: 2px solid rgba(173, 216, 230, 0.397);
+  height: 80px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(12, 141, 216, 0.555);
+  height: 80px;
+}
+
+li {
+  float: left;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: rgb(4, 255, 242);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 80px;
+}
+
+li a:hover:not(.active) {
+  background-image: linear-gradient(to bottom right, rgba(0, 255, 255, 0.966), rgba(11, 240, 209, 0.308), rgba(33, 183, 221, 0.253));
+  height: 80px;
+}
+
+.Home{
+    font-family: fantasy;
+    font-size: 40px;
+}
+.content{
+    width: 80%;
+    height: 800px;
+    border: 8px solid rgba(3, 173, 80, 0.315);
+    margin-left: 10%;
+    background-color: rgba(8, 128, 226, 0.575);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+}
+body{
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.Oefennenknop{
+  font-family: fantasy;
+  font-size: 40px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  height: 800px;
+  width: 624px;
+  border-left: 2px solid rgba(9, 154, 199, 0.541);
+  border-bottom: 2px solid rgba(9, 154, 199, 0.541);
+  border-top: 2px solid rgba(9,154, 199, 0.541);
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.589), rgba(0, 217, 255, 0.623), rgba(255, 255, 255, 0.719));
+}
+.Toetsenknop{
+  font-family: fantasy;
+  font-size: 40px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 800px;
+  border-right: 2px solid rgba(9, 154, 199, 0.541);
+  border-bottom: 2px solid rgba(9, 154, 199, 0.541);
+  border-top: 2px solid rgba(9,154, 199, 0.541);
+  width: 624px;
+  background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0.589), rgba(0, 217, 255, 0.623), rgba(255, 255, 255, 0.719));
+}
+.knoppen{
+  float: right;
+}
+.Toetsenknop:hover{
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(0, 217, 255), rgb(255, 255, 255));
+}
+.Oefennenknop:hover{
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(0, 217, 255), rgb(255, 255, 255));
+}
+#button{
+  border: 1px solid black;
+  padding: 1%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.534),rgba(24, 128, 168, 0.781),rgba(11, 112, 170, 0.534));
+  color: black;
+  border-radius: 30px;
+  opacity: 20%;
+}
+#button2{
+  border: 1px solid black;
+  padding: 1%;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.534),rgba(24, 128, 168, 0.781),rgba(11, 112, 170, 0.534));
+  color: black;
+  border-radius: 30px;
+  opacity: 20%;
+  text-decoration: none;
+  font-size: 14px;
+}
+#tafel{
+  border: 1px solid black;
+  padding: 1%;
+  width: 17%;
+}
+#tafel2{
+  border: 1px solid black;
+  padding: 1%;
+  width: 17%;
+}
+.unpiot{
+  width: 100%;
+}
+.yes1{
+  position: absolute;
+  bottom: 29.8%;
+  left: 52%;
+}
+.yes2{
+  position: absolute;
+  bottom: 25.7%;
+  left: 52%;
+}
+.yes3{
+  position: absolute;
+  bottom: 21.6%;
+  left: 52%;
+}
+.yes4{
+  position: absolute;
+  bottom: 17.5%;
+  left: 52%;
+}
+.yes5{
+  position: absolute;
+  bottom: 13.4%;
+  left: 52%;
+}
+.yes6{
+  position: absolute;
+  bottom: 9.3%;
+  left: 52%;
+}
+.yes7{
+  position: absolute;
+  bottom: 5.2%;
+  left: 52%;
+}
+.yes8{
+  position: absolute;
+  bottom: 1.1%;
+  left: 52%;
+}
+.yes9{
+  position: absolute;
+  bottom: -3%;
+  left: 52%;
+}
+.yes10{
+  position: absolute;
+  bottom: -7%;
+  left: 52%;
+}
+.submootbtn{
+  position: absolute;
+  bottom: -14%;
+  left: 52%;
+  border: 1px solid black;
+  padding: 1%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.534),rgba(24, 128, 168, 0.781),rgba(11, 112, 170, 0.534));
+  color: black;
+  border-radius: 30px;
+  opacity: 20%;
+}
+#pdfthingy{
+  position: absolute;
+  top: 45%;
+  left: 70%;
+}
